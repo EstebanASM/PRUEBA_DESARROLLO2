@@ -9,6 +9,8 @@
 
 5.- Instala las dependencias requeridas: pip install -r requisitos.txt
 
+6.- Instala pip install beautifulsoup4 y pip install lxml  
+
 7.- Crea una Clave de API de OpenAI y agrega a tu archivo .txt y cambia su extensión a .env
 
-8.- Ejecuta la aplicación: streamlit run app.py
+8.- Ejecuta la aplicación: streamlit run app.py --server.port 8080
